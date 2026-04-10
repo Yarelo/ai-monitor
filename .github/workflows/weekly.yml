@@ -1,1 +1,17 @@
+name: Weekly AI Monitor
 
+on:
+  schedule:
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install requests youtube-transcript-api
+      - run: python "youtube_monitor_final (1).py"
