@@ -26,7 +26,7 @@ YOUTUBE_API_KEY = "AIzaSyC-Ic_jfNNk431RWylwbgrk1ZjmZ5RMqHc"
 GROQ_API_KEY = "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"
 DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1492222494936010822/yWf0VqhO3AILcDXd-WgOLQn1eOC-0vOoeqWAr2Gp2tJyyOAN5MDQBVJNXRSkLHrKMzGD"
 
-DAYS_BACK = 7
+DAYS_BACK = 30
 MAX_WORKERS = 5
 CACHE_FILE = "channel_cache.json"
 PROCESSED_FILE = "processed_videos.json"
